@@ -1,0 +1,12 @@
+# Primary versions used by the retained alignment pipeline.
+# Existing Windows environment: .nemo-venv; additional NeMo import dependencies
+# are already installed there. This is not a complete clean-room environment lock.
+nemo_toolkit==2.5.3
+torch==2.8.0
+torchaudio==2.8.0+cpu
+numpy==2.2.6
+soundfile==0.14.0
+hydra-core==1.3.2
+lightning==2.4.0
+torchmetrics==1.4.3
+sentencepiece==0.2.3

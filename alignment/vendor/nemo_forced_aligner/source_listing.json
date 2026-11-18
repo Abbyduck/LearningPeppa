@@ -1,0 +1,82 @@
+[
+  {
+    "name": "README.md",
+    "path": "tools/nemo_forced_aligner/README.md",
+    "sha": "fc06e979a3a46795219064a94595eb649809b4b4",
+    "size": 1974,
+    "url": "https://api.github.com/repos/NVIDIA-NeMo/Speech/contents/tools/nemo_forced_aligner/README.md?ref=v2.5.3",
+    "html_url": "https://github.com/NVIDIA-NeMo/Speech/blob/v2.5.3/tools/nemo_forced_aligner/README.md",
+    "git_url": "https://api.github.com/repos/NVIDIA-NeMo/Speech/git/blobs/fc06e979a3a46795219064a94595eb649809b4b4",
+    "download_url": "https://raw.githubusercontent.com/NVIDIA-NeMo/Speech/v2.5.3/tools/nemo_forced_aligner/README.md",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/NVIDIA-NeMo/Speech/contents/tools/nemo_forced_aligner/README.md?ref=v2.5.3",
+      "git": "https://api.github.com/repos/NVIDIA-NeMo/Speech/git/blobs/fc06e979a3a46795219064a94595eb649809b4b4",
+      "html": "https://github.com/NVIDIA-NeMo/Speech/blob/v2.5.3/tools/nemo_forced_aligner/README.md"
+    }
+  },
+  {
+    "name": "align.py",
+    "path": "tools/nemo_forced_aligner/align.py",
+    "sha": "b38c40d68f903efebfc9479a97291b08e28c676e",
+    "size": 18276,
+    "url": "https://api.github.com/repos/NVIDIA-NeMo/Speech/contents/tools/nemo_forced_aligner/align.py?ref=v2.5.3",
+    "html_url": "https://github.com/NVIDIA-NeMo/Speech/blob/v2.5.3/tools/nemo_forced_aligner/align.py",
+    "git_url": "https://api.github.com/repos/NVIDIA-NeMo/Speech/git/blobs/b38c40d68f903efebfc9479a97291b08e28c676e",
+    "download_url": "https://raw.githubusercontent.com/NVIDIA-NeMo/Speech/v2.5.3/tools/nemo_forced_aligner/align.py",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/NVIDIA-NeMo/Speech/contents/tools/nemo_forced_aligner/align.py?ref=v2.5.3",
+      "git": "https://api.github.com/repos/NVIDIA-NeMo/Speech/git/blobs/b38c40d68f903efebfc9479a97291b08e28c676e",
+      "html": "https://github.com/NVIDIA-NeMo/Speech/blob/v2.5.3/tools/nemo_forced_aligner/align.py"
+    }
+  },
+  {
+    "name": "requirements.txt",
+    "path": "tools/nemo_forced_aligner/requirements.txt",
+    "sha": "9daa6d2f249638a7cdc0e9bda765217120db514b",
+    "size": 67,
+    "url": "https://api.github.com/repos/NVIDIA-NeMo/Speech/contents/tools/nemo_forced_aligner/requirements.txt?ref=v2.5.3",
+    "html_url": "https://github.com/NVIDIA-NeMo/Speech/blob/v2.5.3/tools/nemo_forced_aligner/requirements.txt",
+    "git_url": "https://api.github.com/repos/NVIDIA-NeMo/Speech/git/blobs/9daa6d2f249638a7cdc0e9bda765217120db514b",
+    "download_url": "https://raw.githubusercontent.com/NVIDIA-NeMo/Speech/v2.5.3/tools/nemo_forced_aligner/requirements.txt",
+    "type": "file",
+    "_links": {
+      "self": "https://api.github.com/repos/NVIDIA-NeMo/Speech/contents/tools/nemo_forced_aligner/requirements.txt?ref=v2.5.3",
+      "git": "https://api.github.com/repos/NVIDIA-NeMo/Speech/git/blobs/9daa6d2f249638a7cdc0e9bda765217120db514b",
+      "html": "https://github.com/NVIDIA-NeMo/Speech/blob/v2.5.3/tools/nemo_forced_aligner/requirements.txt"
+    }
+  },
+  {
+    "name": "tests",
+    "path": "tools/nemo_forced_aligner/tests",
+    "sha": "e64e4257f5f3a3d74431588cc77bf85883189384",
+    "size": 0,
+    "url": "https://api.github.com/repos/NVIDIA-NeMo/Speech/contents/tools/nemo_forced_aligner/tests?ref=v2.5.3",
+    "html_url": "https://github.com/NVIDIA-NeMo/Speech/tree/v2.5.3/tools/nemo_forced_aligner/tests",
+    "git_url": "https://api.github.com/repos/NVIDIA-NeMo/Speech/git/trees/e64e4257f5f3a3d74431588cc77bf85883189384",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/NVIDIA-NeMo/Speech/contents/tools/nemo_forced_aligner/tests?ref=v2.5.3",
+      "git": "https://api.github.com/repos/NVIDIA-NeMo/Speech/git/trees/e64e4257f5f3a3d74431588cc77bf85883189384",
+      "html": "https://github.com/NVIDIA-NeMo/Speech/tree/v2.5.3/tools/nemo_forced_aligner/tests"
+    }
+  },
+  {
+    "name": "utils",
+    "path": "tools/nemo_forced_aligner/utils",
+    "sha": "349a9cca9a56776f8e1d0bf5c0a421e5d7332e2a",
+    "size": 0,
+    "url": "https://api.github.com/repos/NVIDIA-NeMo/Speech/contents/tools/nemo_forced_aligner/utils?ref=v2.5.3",
+    "html_url": "https://github.com/NVIDIA-NeMo/Speech/tree/v2.5.3/tools/nemo_forced_aligner/utils",
+    "git_url": "https://api.github.com/repos/NVIDIA-NeMo/Speech/git/trees/349a9cca9a56776f8e1d0bf5c0a421e5d7332e2a",
+    "download_url": null,
+    "type": "dir",
+    "_links": {
+      "self": "https://api.github.com/repos/NVIDIA-NeMo/Speech/contents/tools/nemo_forced_aligner/utils?ref=v2.5.3",
+      "git": "https://api.github.com/repos/NVIDIA-NeMo/Speech/git/trees/349a9cca9a56776f8e1d0bf5c0a421e5d7332e2a",
+      "html": "https://github.com/NVIDIA-NeMo/Speech/tree/v2.5.3/tools/nemo_forced_aligner/utils"
+    }
+  }
+]

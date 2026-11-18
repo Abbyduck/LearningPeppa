@@ -1,0 +1,166 @@
+{
+  "name": "successful_local_B12_v1",
+  "source_experiment": "output\\local_timing_254_278\\run.json",
+  "source_experiment_sha256": "7f42a91559a2aa94b3f1b1a48674a276b95c574d3b42c26fabbed8e77a4699a3",
+  "source_runner_sha256": "7396d747d28a796e4b8619e65e05864325d8bbd45a35f02ebf9bce7f15eddb61",
+  "source_diarization_runner_sha256": "78733c1d031b07ad8880f0fd537b21422b2143a59f5fff22a9721354f9e843c0",
+  "source_explicit_load_args": [
+    "large-v3",
+    "cuda"
+  ],
+  "source_explicit_load_kwargs": {
+    "compute_type": "float16",
+    "language": "en",
+    "task": "transcribe",
+    "download_root": "E:\\Coding\\peppa\\output\\whisperx_models\\hub",
+    "local_files_only": true,
+    "vad_method": "pyannote",
+    "vad_options": {
+      "vad_onset": 0.5,
+      "vad_offset": 0.363
+    },
+    "asr_options": {
+      "beam_size": 5,
+      "temperatures": [
+        0.0
+      ],
+      "condition_on_previous_text": false
+    }
+  },
+  "source_explicit_transcribe_kwargs": {
+    "batch_size": 4,
+    "language": "en",
+    "task": "transcribe",
+    "chunk_size": 12,
+    "print_progress": true
+  },
+  "model": "large-v3",
+  "device": "cuda",
+  "load_model": {
+    "device_index": 0,
+    "compute_type": "float16",
+    "asr_options": {
+      "beam_size": 5,
+      "best_of": 5,
+      "patience": 1,
+      "length_penalty": 1,
+      "repetition_penalty": 1,
+      "no_repeat_ngram_size": 0,
+      "log_prob_threshold": -1.0,
+      "no_speech_threshold": 0.6,
+      "compression_ratio_threshold": 2.4,
+      "condition_on_previous_text": false,
+      "prompt_reset_on_temperature": 0.5,
+      "temperatures": [
+        0.0
+      ],
+      "initial_prompt": null,
+      "prefix": null,
+      "suppress_blank": true,
+      "suppress_tokens": [
+        -1
+      ],
+      "without_timestamps": true,
+      "max_initial_timestamp": 0.0,
+      "word_timestamps": false,
+      "prepend_punctuations": "\"'“¿([{-",
+      "append_punctuations": "\"'.。,，!！?？:：”)]}、",
+      "multilingual": true,
+      "max_new_tokens": null,
+      "clip_timestamps": null,
+      "hallucination_silence_threshold": null,
+      "hotwords": null,
+      "suppress_numerals": false
+    },
+    "language": "en",
+    "vad_model": null,
+    "vad_method": "pyannote",
+    "vad_options": {
+      "chunk_size": 30,
+      "vad_onset": 0.5,
+      "vad_offset": 0.363
+    },
+    "model": null,
+    "task": "transcribe",
+    "download_root": "E:\\Coding\\peppa\\output\\whisperx_models\\hub",
+    "local_files_only": true,
+    "threads": 4,
+    "use_auth_token": null
+  },
+  "transcribe": {
+    "batch_size": 4,
+    "num_workers": 0,
+    "language": "en",
+    "task": "transcribe",
+    "chunk_size": 12,
+    "print_progress": true,
+    "combined_progress": false,
+    "verbose": false
+  },
+  "alignment": {
+    "load_model": {
+      "language_code": "en",
+      "device": "cuda",
+      "model_name": "WAV2VEC2_ASR_BASE_960H"
+    },
+    "align": {
+      "device": "cuda",
+      "interpolate_method": "ignore",
+      "return_char_alignments": false,
+      "print_progress": false,
+      "combined_progress": false
+    }
+  },
+  "diarization": {
+    "load": {
+      "model_name": "pyannote/speaker-diarization-community-1",
+      "token": null,
+      "device": "cuda",
+      "cache_dir": "E:\\Coding\\peppa\\output\\whisperx_models\\hub"
+    },
+    "run": {
+      "num_speakers": null,
+      "min_speakers": null,
+      "max_speakers": null,
+      "return_embeddings": false
+    },
+    "assign": {
+      "fill_nearest": false
+    }
+  },
+  "runtime": {
+    "torch_num_threads": 4,
+    "torch_num_interop_threads": 8,
+    "gpu": "NVIDIA GeForce RTX 2070 SUPER",
+    "python": "3.12.10"
+  },
+  "versions": {
+    "whisperx": "3.8.6",
+    "faster-whisper": "1.2.1",
+    "ctranslate2": "4.8.1",
+    "torch": "2.8.0+cu126",
+    "torchaudio": "2.8.0+cu126",
+    "torchvision": "0.23.0+cu126",
+    "pyannote.audio": "4.0.7",
+    "numpy": "2.5.2",
+    "transformers": "4.57.6",
+    "huggingface-hub": "0.36.2"
+  },
+  "source_modules_sha256": {
+    "C:\\Users\\AYA\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\whisperx\\asr.py": "f25d2dfd0cfcbcb6cd2850ba213bf715f92d4369401274e534557448876da565",
+    "C:\\Users\\AYA\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\whisperx\\alignment.py": "cc3607dcc25e592ae218f74a6ca644d6ce1c77d9cee4672f01c751da8feb9aa7",
+    "C:\\Users\\AYA\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\whisperx\\vads\\pyannote.py": "65575744a07c2366847b33c14ba56a1e5e07234a4f6d7008d2e271f134413003"
+  },
+  "weights_sha256": {
+    "E:\\Coding\\peppa\\output\\whisperx_models\\hub\\models--Systran--faster-whisper-large-v3\\snapshots\\edaa852ec7e145841d8ffdb056a99866b5f0a478\\model.bin": "69f74147e3334731bc3a76048724833325d2ec74642fb52620eda87352e3d4f1",
+    "C:\\Users\\AYA\\.cache\\torch\\hub\\checkpoints\\wav2vec2_fairseq_base_ls960_asr_ls960.pth": "488fd4f16de84438ffc945334278c1b9fb9b7159a806c1080b16111a958c945d",
+    "E:\\Coding\\peppa\\output\\whisperx_models\\hub\\models--pyannote--speaker-diarization-community-1\\snapshots\\3533c8cf8e369892e6b79ff1bf80f7b0286a54ee\\embedding\\pytorch_model.bin": "6f10ff60898a1d185fa22e1d11e0bfa8a92efec811f11bca48cb8cafebefd929",
+    "E:\\Coding\\peppa\\output\\whisperx_models\\hub\\models--pyannote--speaker-diarization-community-1\\snapshots\\3533c8cf8e369892e6b79ff1bf80f7b0286a54ee\\segmentation\\pytorch_model.bin": "7ad24338d844fb95985486eb1a464e32d229f6d7a03c9abe60f978bacf3f816e",
+    "E:\\Coding\\peppa\\output\\whisperx_models\\hub\\models--pyannote--speaker-diarization-community-1\\snapshots\\3533c8cf8e369892e6b79ff1bf80f7b0286a54ee\\plda\\plda.npz": "9b77bcd840692710dd3496f62ecfeed8d8e5f002fd991b785079b244eab7d255",
+    "E:\\Coding\\peppa\\output\\whisperx_models\\hub\\models--pyannote--speaker-diarization-community-1\\snapshots\\3533c8cf8e369892e6b79ff1bf80f7b0286a54ee\\plda\\xvec_transform.npz": "325f1ce8e48f7e55e9c8aa47e05d2766b7c48c4b25b8de8dd751e7a4cc5fbe8f",
+    "E:\\Coding\\peppa\\output\\whisperx_models\\hub\\models--pyannote--speaker-diarization-community-1\\snapshots\\3533c8cf8e369892e6b79ff1bf80f7b0286a54ee\\config.yaml": "5ce2bfa9a938dc132cec1172592d65173cbb8f444ea1e4133f10f9391de155be",
+    "C:\\Users\\AYA\\AppData\\Local\\Programs\\Python\\Python312\\Lib\\site-packages\\whisperx\\assets\\pytorch_model.bin": "0b5b3216d60a2d32fc086b47ea8c67589aaeb26b7e07fcbe620d6d0b83e209ea"
+  },
+  "provenance_note": "Explicit B arguments extracted from saved experiment source; omitted defaults resolved from the same pinned installed implementation. B reused prior diarization, whose original constructor defaults are pinned here.",
+  "validation_gate": "S01E01 complete listening validation before running further episodes. No automatic score is a listening verdict."
+}
